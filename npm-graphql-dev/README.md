@@ -1,11 +1,11 @@
-# How to Setup a Apollo-server using  [graphql-fun](https://www.npmjs.com/package/graphql-fun "graphql-fun")
+# How to Setup a Apollo-server using  [graphql-dev](https://www.npmjs.com/package/graphql-dev "graphql-dev")
 
 ------------
 
 
 ### Features
 
-- The [graphql-fun](https://www.npmjs.com/package/graphql-fun "graphql-fun") module make the developers effort less by auto generating an apollo-server by running a command.
+- The [graphql-dev](https://www.npmjs.com/package/graphql-dev "graphql-dev") module make the developers effort less by auto generating an apollo-server by running a command.
 - Using this module the developers can follow a modular approach through their project.
 
 ### Prequisites
