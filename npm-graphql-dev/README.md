@@ -1,4 +1,4 @@
-#How to Setup a Apollo-server using  [graphql-fun](https://www.npmjs.com/package/graphql-fun "graphql-fun")
+# How to Setup a Apollo-server using  [graphql-fun](https://www.npmjs.com/package/graphql-fun "graphql-fun")
 
 ------------
 
