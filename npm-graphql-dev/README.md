@@ -80,7 +80,7 @@ In order to clean and compile the project for production, we can add a build scr
 
      "scripts": {
            "start:dev": "nodemon src/index.ts",
-    		"build": " tsc",
+           "build": " tsc"
         },
 
 Now, when we run `npm run build`, TypeScript compiler emits new code to dist.
@@ -94,6 +94,6 @@ The startup script looks like this.
 
     "scripts": {
                "start:dev": "nodemon src/index.ts",
-        		"build": " tsc",
-    			"start": "npm run build && node dist/index.js"
+               "build": " tsc",
+               "start": "npm run build && node dist/index.js"
             },
