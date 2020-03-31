@@ -75,13 +75,13 @@ Then we have to run a single command to generate source code for a apollo-server
 After running the command you can see the following files in your src folder.
 ```
 src
-|		index.ts
-|		modules.ts
-|-------asoiaf
-|		|		dataSource.ts
-|		|		resolvers.ts
-|		|		typeDefs.ts
-|		|		index.ts
+|   index.ts
+|   modules.ts
+|---asoiaf
+|	|	dataSource.ts
+|	|	resolvers.ts
+|	|	typeDefs.ts
+|	|	index.ts
 ```
 
 ### Useful configurations & scripts
@@ -99,11 +99,21 @@ And then to run the project, all we have to do is run nodemon. Let's add a scrip
 By running `npm run start:dev`, nodemon will start our app using ts-node ./src/index.ts, watching for changes to files from within /src.
 
 Now the server is listening at http://localhost:3000.
-###Images
+If you open the URL in a browser a playground will open and run the following query in the playground :
+```
+query{
+  getBooks{
+    publisher
+    released
+  }
+}
+```
+The below given image shows the output for the above query.
+### Sample output
 
 Image:
 
-![Sample output](docs/images/graphql_dev.png)
+![](../images/graphql_dev.png)
 
 > Example 
 
