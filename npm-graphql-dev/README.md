@@ -61,6 +61,24 @@ We are writing the code inside **src** folder excpet configurations.
 
 `mkdir src`
 
+After creating the src folder run the following command to generate a simple apollo server.
+
+### Generate apollo server using graphql-dev
+Run the following command :
+`graphql-dev server`
+
+After running the command you can see the following files in your src folder.
+```
+src
+|		index.ts
+|		modules.ts
+|-------asoiaf
+|		|		dataSource.ts
+|		|		resolvers.ts
+|		|		typeDefs.ts
+|		|		index.ts
+```
+
 ### Useful configurations & scripts
 Cold reloading is nice for local development. In order to do this, we'll need to rely on a couple more packages: ts-node for running TypeScript code directly without having to wait for it be compiled, and nodemon, to watch for changes to our code and automatically restart when a file is changed.
 `npm install --save-dev ts-node nodemon`
@@ -73,6 +91,15 @@ And then to run the project, all we have to do is run nodemon. Let's add a scrip
     },
 
 By running `npm run start:dev`, nodemon will start our app using ts-node ./src/index.ts, watching for changes to files from within /src.
+
+Now the server is listening at http://localhost:3000.
+###Images
+
+Image:
+
+![Sample output](docs/images/graphql_dev.png)
+
+> Example 
 
 ### Creating production builds
 In order to clean and compile the project for production, we can add a build script "build": " tsc" to your package.json
