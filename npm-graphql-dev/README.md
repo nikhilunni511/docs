@@ -78,10 +78,10 @@ src
 |   index.ts
 |   modules.ts
 |---asoiaf
-|	|	dataSource.ts
-|	|	resolvers.ts
-|	|	typeDefs.ts
-|	|	index.ts
+|   |   dataSource.ts
+|   |   resolvers.ts
+|   |   typeDefs.ts
+|   |   index.ts
 ```
 
 ### Useful configurations & scripts
